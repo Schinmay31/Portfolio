@@ -107,7 +107,7 @@ export default function Home() {
             <h1 className="text-gray-300 text-2xl 2xl:text-5xl md:text-4xl font-bold">
               Chinmay <br /> Sabnis
             </h1>
-            <p className="text-gray-300 2xl:text-2xl 2xl:mt-5 mt-2">
+            <p className="text-gray-300 2xl:text-lg 2xl:mt-5 mt-2">
               Web Developer Specializing in Backend Development
             </p>
           </motion.div>
@@ -118,18 +118,18 @@ export default function Home() {
             transition={{ duration: 1 }}
           >
             <div className="relative mr-6 h-16">
-              <p className="text-gray-300 text-sm 2xl:text-2xl opacity-90 font-black mt-1">
+              <p className="text-gray-300 text-sm 2xl:text-lg opacity-90 font-black mt-1">
                 Email:
               </p>
-              <p className="text-gray-300 text-sm mt-1 2xl:text-2xl opacity-60 hover:opacity-90 hover:cursor-pointer">
+              <p className="text-gray-300 text-sm mt-1 2xl:text-lg opacity-60 hover:opacity-90 hover:cursor-pointer">
                 sabnischinmay31@gmail.com
               </p>
             </div>
             <div className="relative 2xl:ml-7 h-16 w-48">
-              <p className="text-gray-300 text-sm 2xl:text-2xl font-black mt-1">
+              <p className="text-gray-300 text-sm 2xl:text-lg font-black mt-1">
                 Phone:
               </p>
-              <p className="text-gray-300 text-sm 2xl:text-2xl mt-1 opacity-60 hover:opacity-90 hover:cursor-pointer">
+              <p className="text-gray-300 text-sm 2xl:text-lg mt-1 opacity-60 hover:opacity-90 hover:cursor-pointer">
                 +91 9325310329
               </p>
             </div>
