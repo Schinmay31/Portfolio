@@ -14,7 +14,7 @@ export default function Home() {
     if (isImageLoaded) {
       const timer = setTimeout(() => {
         setIsTextVisible(true);
-      }, 2000); 
+      }, 2000);
 
       return () => clearTimeout(timer);
     }
@@ -22,21 +22,20 @@ export default function Home() {
 
   return (
     <motion.div
-      className="bg-gray-500 relative h-screen"
+      className="bg-gray-500  lg:ml-4 relative h-screen"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
       <motion.div
-      initial={{opacity:0}}
-      animate={isImageLoaded ? { opacity: 10 } : {}}
-      transition={{ duration: 3, }}
+        initial={{ opacity: 0 }}
+        animate={isImageLoaded ? { opacity: 10 } : {}}
+        transition={{ duration: 2 }}
         // initial={{ width: "0%", scale: 1 }}
         // animate={isImageLoaded ? { width: "100%", scale: 1 } : {}}
         // transition={{ duration: 3, }}
-        className="absolute h-screen w-full"
+        className="absolute  h-screen w-fill"
       >
-        
         <img
           src={bgImg}
           className="h-screen w-full opacity-90"
@@ -45,17 +44,14 @@ export default function Home() {
           style={{ display: isImageLoaded ? "block" : "none" }}
         />
       </motion.div>
-      
-                 
-                 
+
       {isImageLoaded && isTextVisible && (
         <>
           <motion.div
-          className="relative h-12 w-36 items-center justify-center cus-social"
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
-
+            className="relative h-12 w-36 items-center justify-center cus-social"
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
           >
             <a
               href="https://github.com/Schinmay31"
@@ -65,18 +61,18 @@ export default function Home() {
               <img
                 src={githubIcon}
                 alt="GitHub"
-                className="h-5 w-auto opacity-90 hover:opacity-100"
+                className="h-5 lg:h-6 w-auto opacity-90 hover:opacity-100"
               />
             </a>
             <a
               href="https://www.linkedin.com/in/chinmay-sabnis-3ab528204/"
               target="_blank"
-              className="inline-block m-3"
+              className="inline-block m-3 "
             >
               <img
                 src={linkedinIcoon}
                 alt="LinkedIn"
-                className="h-5 w-auto opacity-70 hover:opacity-90"
+                className="h-5 w-auto lg:h-6 opacity-70 hover:opacity-90"
               />
             </a>
             <a
@@ -87,12 +83,12 @@ export default function Home() {
               <img
                 src={instgramIcon}
                 alt="Instagram"
-                className="h-5 w-auto opacity-70 hover:opacity-90"
+                className="h-5 w-auto lg:h-6 opacity-70 hover:opacity-90"
               />
             </a>
           </motion.div>
           <motion.div
-            className="relative h-40 w-80 items-center justify-center cus-heading"
+            className="relative h-40 w-80 lg:h-52 lg:mt-16  items-center justify-center cus-heading"
             initial={{
               scale: 0.5,
               opacity: 0.5,
@@ -108,31 +104,32 @@ export default function Home() {
               },
             }}
           >
-            <h1 className="text-gray-300 text-2xl md:text-4xl font-bold">
+            <h1 className="text-gray-300 text-2xl lg:text-5xl md:text-4xl font-bold">
               Chinmay <br /> Sabnis
             </h1>
-            <p className="text-gray-300 mt-2">
+            <p className="text-gray-300 lg:text-lg lg:mt-5 mt-2">
               Web Developer Specializing in Backend Development
             </p>
           </motion.div>
           <motion.div
-           className="relative h-16 w-4/12 flex text-gray-300 cus-personal-info"
-           initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
-
-           >
+            className="relative h-16 w-4/12 flex lg:mt-4 text-gray-300 cus-personal-info"
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
             <div className="relative mr-6 h-16">
-              <p className="text-gray-300 text-sm opacity-90 font-black mt-1">
+              <p className="text-gray-300 text-sm lg:text-lg opacity-90 font-black mt-1">
                 Email:
               </p>
-              <p className="text-gray-300 text-sm mt-1 opacity-60 hover:opacity-90 hover:cursor-pointer">
+              <p className="text-gray-300 text-sm mt-1 lg:text-lg opacity-60 hover:opacity-90 hover:cursor-pointer">
                 sabnischinmay31@gmail.com
               </p>
             </div>
-            <div className="relative h-16 w-48">
-              <p className="text-gray-300 text-sm font-black mt-1">Phone:</p>
-              <p className="text-gray-300 text-sm mt-1 opacity-60 hover:opacity-90 hover:cursor-pointer">
+            <div className="relative lg:ml-7 h-16 w-48">
+              <p className="text-gray-300 text-sm lg:text-lg font-black mt-1">
+                Phone:
+              </p>
+              <p className="text-gray-300 text-sm lg:text-lg mt-1 opacity-60 hover:opacity-90 hover:cursor-pointer">
                 +91 9325310329
               </p>
             </div>

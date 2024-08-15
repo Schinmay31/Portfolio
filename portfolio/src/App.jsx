@@ -17,35 +17,11 @@ import "./App.css"
 // Inside your App component
 // Inside your App component
 const App = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-  useEffect(() => {
-    const mouseMove = (e) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
-
-    window.addEventListener("mousemove", mouseMove);
-
-    return () => {
-      window.removeEventListener("mousemove", mouseMove);
-    };
-  }, []);
-
-  const variants = {
-    default: {
-      x: mousePosition.x,
-      y: mousePosition.y,
-    },
-  };
 
   return (
     <>
-      <motion.div
-        className="cus-cursor"
-        variants={variants}
-        animate="default"
-        transition={{ ease: "linear", duration: 0.05 }} // Smooth movement
-      ></motion.div>
+  
       <Navbar />
       <div className="ml-20 flex-1">
         <AnimatePresence mode="wait">
