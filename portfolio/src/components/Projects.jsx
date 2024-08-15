@@ -36,36 +36,36 @@ export default function Projects() {
     >
       <div className="bg-gray-100 w-full h-5/6 flex">
         <motion.div
-         className="w-1/2 h-5/6 ml-1 lg:ml-7 mt-14"
+         className="w-1/2 h-5/6 ml-1 2xl:ml-7 mt-14"
          initial={{ x: -70, opacity: 0 }}
          animate={{ x: 0, opacity: 1 }}
          transition={{ duration: 1 }}   
          >
           <div className="w-full h-9 mt-7 flex ">
             <div className="h-8 w-3/5">
-              <h2 className=" text-2xl md:text-2xl lg:text-3xl ml-7  text-gray-700 font-semibold">
+              <h2 className=" text-2xl md:text-2xl 2xl:text-3xl ml-7  text-gray-700 font-semibold">
                 Elika Engginerring
               </h2>
             </div>
             <div className="h-8 w-1/5 ml-auto ">
-              <p className="text-sm mt-1 lg:text-md text-gray-500">JUN 2024</p>
+              <p className="text-sm mt-1 2xl:text-md text-gray-500">JUN 2024</p>
             </div>
           </div>
           <div className="w-full h-6  ">
-            <h4 className="text-sm lg:text-lg ml-7 mt-1 lg:mt-3 text-gray-600">
+            <h4 className="text-sm 2xl:text-2xl ml-7 mt-1 2xl:mt-3 text-gray-600">
               Backend Developer
             </h4>
           </div>
           <div className="w-full h-9">
-            <h4 className="text-sm ml-7 lg:text-lg  mt-1 lg:mt-4   text-gray-600">
+            <h4 className="text-sm ml-7 2xl:text-2xl  mt-1 2xl:mt-4   text-gray-600">
               Project Link :{" "}
               <a href="https://elikaengineering.com/" target="_blank" className="underline">
                 elikaengineering.com
               </a>
             </h4>
           </div>
-          <div className="w-5/6 h-fill md:text-sm lg:mt-2 ml-7 text-gray-600 lg:text-gray-500 ">
-            <p className="lg:text-lg lg:font-thin ">
+          <div className="w-5/6 h-fill md:text-sm 2xl:mt-2 ml-7 text-gray-600 2xl:text-gray-500 ">
+            <p className="2xl:text-2xl 2xl:font-thin ">
               {" "}
               Developed a comprehensive website for a client’s business,
               integrating an email verification system, a fully accessible admin
@@ -77,8 +77,8 @@ export default function Projects() {
               apply for jobs without a traditional login/signup process.
             </p>
           </div>
-          <div className="w-5/6 h-6 mt-7   lg:mt-9 ml-7 text-sm text-gray-600">
-            <p className="lg:text-lg lg:mt-10">Client : Elika Engginerring </p>
+          <div className="w-5/6 h-6 mt-7   2xl:mt-9 ml-7 text-sm text-gray-600">
+            <p className="2xl:text-2xl 2xl:mt-10">Client : Elika Engginerring </p>
           </div>
         </motion.div>
         <motion.div 
@@ -93,7 +93,7 @@ export default function Projects() {
                 key={currImg}
                 src={images[currImg]}
                 alt=""
-                className="w-full  lg:h-fill rounded-md object-cover"
+                className="w-full  2xl:h-fill rounded-md object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -102,7 +102,7 @@ export default function Projects() {
             </AnimatePresence>
           </div>
           <div className="w-max h-7 mt-8 ml-5 ">
-            <p className=" mt-1 text-sm lg:text-lg text-gray-600">
+            <p className=" mt-1 text-sm 2xl:text-2xl text-gray-600">
               Technologies Used : nodeJs, ExpressJs, MongoDB, ReactJs, Tailwind-CSS, AWS-S3
             </p>
           </div>
@@ -117,7 +117,7 @@ export default function Projects() {
  
          
          
-        <motion.div className="w-1/2 h-5/6 ml-1 mt-4 lg:ml-7"
+        <motion.div className="w-1/2 h-5/6 ml-1 mt-4 2xl:ml-7"
         initial={{ x: -70, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}   
@@ -125,35 +125,35 @@ export default function Projects() {
         
           <div className="w-full h-9 mt-7 flex ">
             <div className="h-8 w-3/5 ">
-              <h2 className=" text-2xl md:text-2xl lg:text-3xl ml-7  text-gray-700 font-semibold">
+              <h2 className=" text-2xl md:text-2xl 2xl:text-3xl ml-7  text-gray-700 font-semibold">
                 SocialBee
               </h2>
             </div>
             <div className="h-8 w-1/5 ml-auto ">
-              <p className="text-sm  mt-1 lg:text-md  text-gray-500">DEC 2023</p>
+              <p className="text-sm  mt-1 2xl:text-md  text-gray-500">DEC 2023</p>
             </div>
           </div>
           <div className="w-full h-6  ">
-            <h4 className="text-sm ml-7 mt-1 lg:text-lg lg:mt-3 text-gray-600">
+            <h4 className="text-sm ml-7 mt-1 2xl:text-2xl 2xl:mt-3 text-gray-600">
               Backend Developer
             </h4>
           </div>
           <div className="w-full h-9">
-            <h4 className="text-sm ml-7 lg:text-lg lg:mt-4 mt-1    text-gray-600">
+            <h4 className="text-sm ml-7 2xl:text-2xl 2xl:mt-4 mt-1    text-gray-600">
               Project Link :{" "}
               <a href="https://github.com/Schinmay31/SocialBee-server" target="_blank" className="underline">
                 Github Link
               </a>
             </h4>
           </div>
-          <div className="w-5/6 h-fill text-sm  lg:mt-2  ml-7 text-gray-600 ">
-            <p className="lg:text-lg lg:text-gray-500 ">
+          <div className="w-5/6 h-fill text-sm  2xl:mt-2  ml-7 text-gray-600 ">
+            <p className="2xl:text-2xl 2xl:text-gray-500 ">
               {" "}
               Created a dynamic social media app featuring essential functionalities for user engagement. The platform allows users to log in or sign up, upload photos, and interact with content through likes and comments. Additionally, users can follow or unfollow others, enabling a customizable social experience. This app provides a robust foundation for social interaction and content sharing, tailored to enhance user connectivity and engagement.
             </p>
           </div>
-          <div className="w-5/6 h-6 mt-7 ml-7 text-sm lg:text-lg text-gray-600">
-            <p className="lg:mt-10">Client : Personal Project </p>
+          <div className="w-5/6 h-6 mt-7 ml-7 text-sm 2xl:text-2xl text-gray-600">
+            <p className="2xl:mt-10">Client : Personal Project </p>
             </div>
           </motion.div>
           
@@ -166,7 +166,7 @@ export default function Projects() {
            <img src={socailbeeImg} className="w-full h-fill rounded-md object-cover" alt="" />
           </div>
           <div className="w-max h-7 mt-8 ml-5 ">
-            <p className=" mt-1 text-sm lg:text-lg text-gray-600">
+            <p className=" mt-1 text-sm 2xl:text-2xl text-gray-600">
               Technologies Used : ReactJs, nodeJs, ExpressJs, MongoDB, AWS
             </p>
           </div>
@@ -177,38 +177,38 @@ export default function Projects() {
       {/* 3 */}
        
       <div className="bg-gray-100 w-full h-5/6 flex">
-        <div className="w-1/2 h-5/6 ml-1 lg:ml-7 mt-4">
+        <div className="w-1/2 h-5/6 ml-1 2xl:ml-7 mt-4">
           <div className="w-full h-9 mt-7 flex ">
             <div className="h-8 w-3/5">
-              <h2 className=" text-2xl md:text-2xl lg:text-3xl ml-7  text-gray-700 font-semibold">
+              <h2 className=" text-2xl md:text-2xl 2xl:text-3xl ml-7  text-gray-700 font-semibold">
                 CodeHub
               </h2>
             </div>
             <div className="h-8 w-1/5 ml-auto ">
-              <p className="text-sm mt-1 lg:text-md text-gray-500">DEC 2022</p>
+              <p className="text-sm mt-1 2xl:text-md text-gray-500">DEC 2022</p>
             </div>
           </div>
           <div className="w-full h-6  ">
-            <h4 className="text-sm ml-7 mt-1 lg:mt-3 lg:text-lg text-gray-600">
+            <h4 className="text-sm ml-7 mt-1 2xl:mt-3 2xl:text-2xl text-gray-600">
               Fullstack Developer
             </h4>
           </div>
           <div className="w-full h-9">
-            <h4 className="text-sm ml-7 mt-1 lg:text-lg  lg:mt-4  text-gray-600">
+            <h4 className="text-sm ml-7 mt-1 2xl:text-2xl  2xl:mt-4  text-gray-600">
               Project Link :{" "}
               <a href="https://github.com/Schinmay31/CodeHub" target="_blank" className="underline">
                 Github Link
               </a>
             </h4>
           </div>
-          <div className="w-5/6 h-fill text-sm  ml-7 lg:mt-2 text-gray-600 ">
-            <p className="lg:text-lg lg:text-gray-500">
+          <div className="w-5/6 h-fill text-sm  ml-7 2xl:mt-2 text-gray-600 ">
+            <p className="2xl:text-2xl 2xl:text-gray-500">
               {" "}
                Developed CodeHUB, a web-based online compiler that enables users to write and execute code from any device. Supporting multiple programming languages including C, C++, Java, and Python, CodeHUB leverages Node.js for robust server-side processing and the Compilex library for efficient code compilation.
             </p>
           </div>
-          <div className="w-5/6 h-6 mt-7 ml-7 text-sm lg:text-lg text-gray-600">
-            <p className="lg:mt-10">Client : Personal Project </p>
+          <div className="w-5/6 h-6 mt-7 ml-7 text-sm 2xl:text-2xl text-gray-600">
+            <p className="2xl:mt-10">Client : Personal Project </p>
           </div>
         </div>
         <div className="w-1/2 h-5/6 ml-1 mt-4 ">
@@ -227,7 +227,7 @@ export default function Projects() {
             </AnimatePresence>
           </div>
           <div className="w-max h-7 mt-8 ml-5 ">
-            <p className=" mt-1 text-sm lg:text-lg text-gray-600">
+            <p className=" mt-1 text-sm 2xl:text-2xl text-gray-600">
               Technologies Used : nodeJs, ExpressJs, EJS, HTML, CSS, JS
             </p>
           </div>
