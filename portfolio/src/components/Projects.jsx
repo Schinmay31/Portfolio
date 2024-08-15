@@ -52,12 +52,12 @@ export default function Projects() {
             </div>
           </div>
           <div className="w-full h-6  ">
-            <h4 className="text-sm 2xl:text-2xl ml-7 mt-1 2xl:mt-3 text-gray-600">
+            <h4 className="text-sm 2xl:text-lg ml-7 mt-1 2xl:mt-3 text-gray-600">
               Backend Developer
             </h4>
           </div>
           <div className="w-full h-9">
-            <h4 className="text-sm ml-7 2xl:text-2xl  mt-1 2xl:mt-4   text-gray-600">
+            <h4 className="text-sm ml-7 2xl:text-lg  mt-1 2xl:mt-4   text-gray-600">
               Project Link :{" "}
               <a href="https://elikaengineering.com/" target="_blank" className="underline">
                 elikaengineering.com
@@ -65,7 +65,7 @@ export default function Projects() {
             </h4>
           </div>
           <div className="w-5/6 h-fill md:text-sm 2xl:mt-2 ml-7 text-gray-600 2xl:text-gray-500 ">
-            <p className="2xl:text-2xl 2xl:font-thin ">
+            <p className="2xl:text-lg 2xl:font-thin ">
               {" "}
               Developed a comprehensive website for a client’s business,
               integrating an email verification system, a fully accessible admin
@@ -78,7 +78,7 @@ export default function Projects() {
             </p>
           </div>
           <div className="w-5/6 h-6 mt-7   2xl:mt-9 ml-7 text-sm text-gray-600">
-            <p className="2xl:text-2xl 2xl:mt-10">Client : Elika Engginerring </p>
+            <p className="2xl:text-lg 2xl:mt-10">Client : Elika Engginerring </p>
           </div>
         </motion.div>
         <motion.div 
@@ -102,7 +102,7 @@ export default function Projects() {
             </AnimatePresence>
           </div>
           <div className="w-max h-7 mt-8 ml-5 ">
-            <p className=" mt-1 text-sm 2xl:text-2xl text-gray-600">
+            <p className=" mt-1 text-sm 2xl:text-lg text-gray-600">
               Technologies Used : nodeJs, ExpressJs, MongoDB, ReactJs, Tailwind-CSS, AWS-S3
             </p>
           </div>
@@ -134,12 +134,12 @@ export default function Projects() {
             </div>
           </div>
           <div className="w-full h-6  ">
-            <h4 className="text-sm ml-7 mt-1 2xl:text-2xl 2xl:mt-3 text-gray-600">
+            <h4 className="text-sm ml-7 mt-1 2xl:text-lg 2xl:mt-3 text-gray-600">
               Backend Developer
             </h4>
           </div>
           <div className="w-full h-9">
-            <h4 className="text-sm ml-7 2xl:text-2xl 2xl:mt-4 mt-1    text-gray-600">
+            <h4 className="text-sm ml-7 2xl:text-lg 2xl:mt-4 mt-1    text-gray-600">
               Project Link :{" "}
               <a href="https://github.com/Schinmay31/SocialBee-server" target="_blank" className="underline">
                 Github Link
@@ -147,12 +147,12 @@ export default function Projects() {
             </h4>
           </div>
           <div className="w-5/6 h-fill text-sm  2xl:mt-2  ml-7 text-gray-600 ">
-            <p className="2xl:text-2xl 2xl:text-gray-500 ">
+            <p className="2xl:text-lg 2xl:text-gray-500 ">
               {" "}
               Created a dynamic social media app featuring essential functionalities for user engagement. The platform allows users to log in or sign up, upload photos, and interact with content through likes and comments. Additionally, users can follow or unfollow others, enabling a customizable social experience. This app provides a robust foundation for social interaction and content sharing, tailored to enhance user connectivity and engagement.
             </p>
           </div>
-          <div className="w-5/6 h-6 mt-7 ml-7 text-sm 2xl:text-2xl text-gray-600">
+          <div className="w-5/6 h-6 mt-7 ml-7 text-sm 2xl:text-lg text-gray-600">
             <p className="2xl:mt-10">Client : Personal Project </p>
             </div>
           </motion.div>
@@ -166,7 +166,7 @@ export default function Projects() {
            <img src={socailbeeImg} className="w-full h-fill rounded-md object-cover" alt="" />
           </div>
           <div className="w-max h-7 mt-8 ml-5 ">
-            <p className=" mt-1 text-sm 2xl:text-2xl text-gray-600">
+            <p className=" mt-1 text-sm 2xl:text-lg text-gray-600">
               Technologies Used : ReactJs, nodeJs, ExpressJs, MongoDB, AWS
             </p>
           </div>
@@ -189,12 +189,12 @@ export default function Projects() {
             </div>
           </div>
           <div className="w-full h-6  ">
-            <h4 className="text-sm ml-7 mt-1 2xl:mt-3 2xl:text-2xl text-gray-600">
+            <h4 className="text-sm ml-7 mt-1 2xl:mt-3 2xl:text-lg text-gray-600">
               Fullstack Developer
             </h4>
           </div>
           <div className="w-full h-9">
-            <h4 className="text-sm ml-7 mt-1 2xl:text-2xl  2xl:mt-4  text-gray-600">
+            <h4 className="text-sm ml-7 mt-1 2xl:text-lg  2xl:mt-4  text-gray-600">
               Project Link :{" "}
               <a href="https://github.com/Schinmay31/CodeHub" target="_blank" className="underline">
                 Github Link
@@ -202,12 +202,12 @@ export default function Projects() {
             </h4>
           </div>
           <div className="w-5/6 h-fill text-sm  ml-7 2xl:mt-2 text-gray-600 ">
-            <p className="2xl:text-2xl 2xl:text-gray-500">
+            <p className="2xl:text-lg 2xl:text-gray-500">
               {" "}
                Developed CodeHUB, a web-based online compiler that enables users to write and execute code from any device. Supporting multiple programming languages including C, C++, Java, and Python, CodeHUB leverages Node.js for robust server-side processing and the Compilex library for efficient code compilation.
             </p>
           </div>
-          <div className="w-5/6 h-6 mt-7 ml-7 text-sm 2xl:text-2xl text-gray-600">
+          <div className="w-5/6 h-6 mt-7 ml-7 text-sm 2xl:text-lg text-gray-600">
             <p className="2xl:mt-10">Client : Personal Project </p>
           </div>
         </div>
@@ -227,7 +227,7 @@ export default function Projects() {
             </AnimatePresence>
           </div>
           <div className="w-max h-7 mt-8 ml-5 ">
-            <p className=" mt-1 text-sm 2xl:text-2xl text-gray-600">
+            <p className=" mt-1 text-sm 2xl:text-lg text-gray-600">
               Technologies Used : nodeJs, ExpressJs, EJS, HTML, CSS, JS
             </p>
           </div>
