@@ -1,0 +1,17 @@
+*{
+    /* overflow-x: hidden; */
+    
+}
+.cus-conctact {
+    background: linear-gradient(to right,  #f3f4f6 0% , #f3f4f6 50%, #e9eef7 52%, #e9eef7  100%);
+}   
+.cus-form{
+    top: 13%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #e8ecf4;
+}       
+.button{
+    background-color: #f2f6fc;
+}

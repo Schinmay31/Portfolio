@@ -1,0 +1,15 @@
+body{
+    overflow-y: scroll;
+}
+.cus-heading{
+    top:15.5% ;
+    left: 60%;
+}
+.cus-social{
+    top:6%;
+    left: 87%;
+}
+.cus-personal-info{
+    left:60%;
+    top:44.5%;
+}

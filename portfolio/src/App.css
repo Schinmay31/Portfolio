@@ -1,0 +1,10 @@
+
+.cus-curser{
+    width: 32px;
+    height: 32px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    position: fixed;
+    top:1rem;
+    left: 22px;
+}
