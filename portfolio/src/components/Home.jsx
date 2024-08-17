@@ -30,7 +30,7 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={isImageLoaded ? { opacity: 10 } : {}}
-        transition={{ duration: 2 }}
+        transition={{ duration: 2.5 }}
         // initial={{ width: "0%", scale: 1 }}
         // animate={isImageLoaded ? { width: "100%", scale: 1 } : {}}
         // transition={{ duration: 3, }}
@@ -49,7 +49,7 @@ export default function Home() {
         <>
           <motion.div
             className="relative h-12 w-36 items-center justify-center cus-social"
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: -200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
           >
@@ -89,20 +89,9 @@ export default function Home() {
           </motion.div>
           <motion.div
             className="relative h-40 w-80 2xl:h-52 2xl:mt-16  items-center justify-center cus-heading"
-            initial={{
-              scale: 0.5,
-              opacity: 0.5,
-              transition: {
-                duration: 1,
-              },
-            }}
-            animate={{
-              scale: 1,
-              opacity: 1,
-              transition: {
-                duration: 1,
-              },
-            }}
+            initial={{ x: +100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
           >
             <h1 className="text-gray-300 text-2xl 2xl:text-5xl md:text-4xl font-bold">
               Chinmay <br /> Sabnis
@@ -113,8 +102,8 @@ export default function Home() {
           </motion.div>
           <motion.div
             className="relative h-16 w-4/12 flex 2xl:mt-4 text-gray-300 cus-personal-info"
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
+            initial={{ y: +35, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <div className="relative mr-6 h-16">

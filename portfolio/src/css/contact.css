@@ -3,15 +3,25 @@
     
 }
 .cus-conctact {
-    background: linear-gradient(to right,  #f3f4f6 0% , #f3f4f6 50%, #e9eef7 52%, #e9eef7  100%);
+    background: linear-gradient(to right,  #f3f4f6 0% , #f3f4f6 57%, #f0f3f7 61%, #e9eef7  100%);
 }   
 .cus-form{
-    top: 13%;
-    left: 25%;
+    /* top: 13%;
+    left: 25%; */
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #e8ecf4;
-}       
+    background-color: #f0f3f7 ;
+}   
+.cus-conctact-2{
+    background: linear-gradient(to right,  #f3f4f6 0% , #f3f4f6 33%, #f0f3f7  30%, #cbdef5   100%);
+}
+.cus-box{
+    top:15%;
+}    
 .button{
     background-color: #f2f6fc;
+}
+.cus-thankyou{
+    background-color: #e3ecf7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
