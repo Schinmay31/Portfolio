@@ -29,12 +29,12 @@ export default function Projects() {
   return (
     <motion.div className=" w-full h-screen">
       <div className=" w-full h-5/6  flex cus-conctact">
-        <motion.div className="w-1/2 h-5/6 ml-1 2xl:ml-7 mt-14">
-          <div className="h-fill w-full pb-4   ml-16 border-l-2   border-gray-700">
+        <motion.div className="w-1/2 h-5/6 ml-1 2xl:ml-7 mt-14 2xl:mt-20">
+          <div className="h-fill w-full pb-5   ml-16 border-l-2  2xl:border-l-4  border-gray-700">
             <div className="w-full h-9 mt-7 flex ">
               <div className="h-8 w-3/5 mt-4">
                 <motion.h2
-                  className=" text-2xl md:text-2xl 2xl:text-3xl ml-2  text-gray-700 font-semibold"
+                  className=" text-2xl md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  text-gray-700 font-semibold"
                   initial={{ y: -40, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
@@ -42,7 +42,7 @@ export default function Projects() {
                   Elika Engginerring
                 </motion.h2>
               </div>
-              <div className="h-8 w-1/5 ml-20  ">
+              <div className="h-8 w-1/5 2xl:ml-36 ml-20  ">
                 <motion.p
                   className="text-sm mt-4 2xl:text-md text-gray-500"
                   initial={{ y: -40, opacity: 0 }}
@@ -55,7 +55,7 @@ export default function Projects() {
             </div>
             <div className="w-full h-6  ">
               <motion.h4
-                className="text-sm 2xl:text-lg ml-2 mt-5 2xl:mt-3 text-gray-600"
+                className="text-sm 2xl:text-lg ml-2 2xl:ml-4 mt-5 2xl:mt-7 2xl:mt-3 text-gray-600"
                 initial={{ x: 150, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
@@ -69,7 +69,7 @@ export default function Projects() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
             >
-              <h4 className="text-sm ml-2 2xl:text-lg  mt-1 2xl:mt-4   text-gray-600">
+              <h4 className="text-sm ml-2 2xl:text-lg  mt-1 2xl:mt-4 2xl:ml-4   text-gray-600">
                 Project Link :{" "}
                 <a
                   href="https://elikaengineering.com/"
@@ -80,7 +80,7 @@ export default function Projects() {
                 </a>
               </h4>
             </motion.div>
-            <div className="w-5/6 h-fill md:text-sm 2xl:mt-2 ml-2 text-gray-600 2xl:text-gray-500 ">
+            <div className="w-5/6 h-fill md:text-sm 2xl:mt-2 2xl:ml-4 ml-2 text-gray-600 2xl:text-gray-500 ">
               <motion.p
                 className="2xl:text-lg 2xl:font-thin text-justify "
                 initial={{ y: +40, opacity: 0 }}
@@ -99,7 +99,7 @@ export default function Projects() {
                 login/signup process.
               </motion.p>
             </div>
-            <div className="w-5/6 h-6 mt-7   2xl:mt-9 ml-2 text-sm text-gray-600">
+            <div className="w-5/6 h-6 mt-7 2xl:ml-4   2xl:mt-9 ml-2 text-sm text-gray-600">
               <motion.p
                 className="2xl:text-lg 2xl:mt-10"
                 initial={{ y: +40, opacity: 0 }}
@@ -116,7 +116,7 @@ export default function Projects() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <div className="w-11/12   h-3/5 ml-5 mt-11 border shadow-md rounded-md border-gray-400">
+          <div className="w-11/12   h-3/5 ml-5 mt-11 border shadow-md rounded-md  border-gray-400">
             <AnimatePresence mode="wait">
               <motion.img
                 key={currImg}
@@ -139,12 +139,12 @@ export default function Projects() {
       {/* 2 */}
 
       <div className=" w-full h-4/6 flex cus-conctact">
-        <motion.div className="w-1/2 h-full ml-1  mt-4 2xl:ml-7">
-          <div className="h-fill w-full ml-16 pb-4 border-l-2 border-gray-700">
+        <motion.div className="w-1/2 h-full ml-1  mt-4 2xl:mt-10 2xl:ml-7">
+          <div className="h-fill w-full ml-16 pb-4 2xl:pb-5 border-l-2 2xl:border-l-4 border-gray-700">
             <div className="w-full h-9 mt-2 flex ">
               <div className="h-8 w-3/5 ">
                 <motion.h2 
-                className=" text-2xl md:text-2xl 2xl:text-3xl ml-2 mt-4  text-gray-700 font-semibold"
+                className=" text-2xl md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  mt-4  text-gray-700 font-semibold"
                 initial={{ y: -40, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
@@ -152,19 +152,19 @@ export default function Projects() {
                   SocialBee
                 </motion.h2>
               </div>
-              <div className="h-8 w-1/5 ml-20 ">
+              <div className="h-8 w-1/5 ml-20 2xl:ml-36 ">
                 <p className="text-sm  mt-4 2xl:text-md  text-gray-500">
                   DEC 2023
                 </p>
               </div>
             </div>
             <div className="w-full h-6  ">
-              <h4 className="text-sm ml-2 mt-5 2xl:text-lg 2xl:mt-3 text-gray-600">
+              <h4 className="text-sm ml-2 2xl:ml-4  mt-5  2xl:mt-7 2xl:text-lg 2xl:mt-3 text-gray-600">
                 Backend Developer
               </h4>
             </div>
             <div className="w-full h-9">
-              <h4 className="text-sm ml-2 2xl:text-lg 2xl:mt-4 mt-1    text-gray-600">
+              <h4 className="text-sm ml-2 2xl:ml-4  2xl:text-lg 2xl:mt-4 mt-1    text-gray-600">
                 Project Link :{" "}
                 <a
                   href="https://github.com/Schinmay31/SocialBee-server"
@@ -175,7 +175,7 @@ export default function Projects() {
                 </a>
               </h4>
             </div>
-            <div className="w-5/6 h-fill text-sm  2xl:mt-2  ml-2 text-gray-600 ">
+            <div className="w-5/6 h-fill text-sm  2xl:mt-2  ml-2 2xl:ml-4  text-gray-600 ">
               <p className="2xl:text-lg 2xl:text-gray-500 text-justify">
                 {" "}
                 Created a dynamic social media app featuring essential
@@ -188,7 +188,7 @@ export default function Projects() {
                 engagement.
               </p>
             </div>
-            <div className="w-5/6 h-6 mt-7 ml-2 text-sm 2xl:text-lg text-gray-600">
+            <div className="w-5/6 h-6 mt-7 ml-2 2xl:ml-4  text-sm 2xl:text-lg text-gray-600">
               <p className="2xl:mt-10">Client : Personal Project </p>
             </div>
           </div>
@@ -218,12 +218,12 @@ export default function Projects() {
       {/* 3 */}
 
       <div className=" w-full h-5/6 flex cus-conctact">
-        <div className="w-1/2 h-5/6 ml-1 2xl:ml-7 mt-5">
-          <div className="h-fill w-full ml-16 pb-4 border-l-2 border-gray-700">
+        <div className="w-1/2 h-5/6 ml-1 2xl:ml-7 mt-5 2xl:mt-10 ">
+          <div className="h-fill w-full ml-16 pb-4 2xl:pb-5 border-l-2 2xl:border-l-4 border-gray-700">
             <div className="w-full h-9 mt-7 flex ">
               <div className="h-8 w-3/5">
                 <motion.h2 
-                className=" text-2xl mt-3 md:text-2xl 2xl:text-3xl ml-2  text-gray-700 font-semibold"
+                className=" text-2xl mt-3 md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  text-gray-700 font-semibold"
                 initial={{ y: -40, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
@@ -231,19 +231,19 @@ export default function Projects() {
                   CodeHub
                 </motion.h2>
               </div>
-              <div className="h-8 w-1/5 ml-20 ">
+              <div className="h-8 w-1/5 ml-20 2xl:ml-36 ">
                 <p className="text-sm mt-4 2xl:text-md text-gray-500">
                   DEC 2022
                 </p>
               </div>
             </div>
             <div className="w-full h-6  ">
-              <h4 className="text-sm ml-2 mt-5 2xl:mt-3 2xl:text-lg text-gray-600">
+              <h4 className="text-sm ml-2 2xl:ml-4 mt-5 2xl:mt-7 2xl:mt-3 2xl:text-lg text-gray-600">
                 Fullstack Developer
               </h4>
             </div>
             <div className="w-full h-9">
-              <h4 className="text-sm ml-2 mt-1 2xl:text-lg  2xl:mt-4  text-gray-600">
+              <h4 className="text-sm ml-2 2xl:ml-4 mt-1 2xl:text-lg  2xl:mt-4  text-gray-600">
                 Project Link :{" "}
                 <a
                   href="https://github.com/Schinmay31/CodeHub"
@@ -254,7 +254,7 @@ export default function Projects() {
                 </a>
               </h4>
             </div>
-            <div className="w-5/6 h-fill text-sm  ml-2 2xl:mt-2 text-gray-600 ">
+            <div className="w-5/6 h-fill text-sm  ml-2 2xl:ml-4 2xl:mt-2 text-gray-600 ">
               <p className="2xl:text-lg 2xl:text-gray-500 text-justify">
                 {" "}
                 Developed CodeHUB, a web-based online compiler that enables
@@ -265,7 +265,7 @@ export default function Projects() {
                 compilation.
               </p>
             </div>
-            <div className="w-5/6 h-6 mt-7 ml-2 text-sm 2xl:text-lg text-gray-600">
+            <div className="w-5/6 h-6 mt-7 ml-2 2xl:ml-4 text-sm 2xl:text-lg text-gray-600">
               <p className="2xl:mt-10">Client : Personal Project </p>
             </div>
           </div>

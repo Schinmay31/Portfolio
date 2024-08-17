@@ -20,35 +20,35 @@ export default function Contact() {
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
       className="w-full h-screen   cus-conctact-2"
     >
-      <div className="w-4/5 ml-32 top-20 cus-box relative pb-3 pt-3 h-4/5 border-l-2 border-gray-700">
+      <div className="w-4/5 ml-32 top-20 2xl:top-36 2xl:ml-44 cus-box relative pb-3 2xl:pb-8 2xl:pt-8 pt-3 h-fill border-l-2 2xl:border-l-4 border-gray-700">
       <motion.div 
       initial={{ x: +100,rotate:+5, opacity: 0 }}
       animate={{ x: 0, rotate:0,opacity: 1 }}
       transition={{ duration: 1 }}
-      className="w-5/12 h-full 2xl:h-4/6 ml-4   relative    cus-form ">
+      className="w-5/12 h-full 2xl:h-4/6 ml-4 2xl:ml-6   relative    cus-form ">
         
         {isSubmit ? (
-        <div className="w-full h-full relative   pt-20">
-        <div className="w-11/12 ml-3 h-1/2 justify cus-thankyou   rounded-lg ">
-          <h1 className="text-2xl font-bold text-gray-700 ml-3 pt-1  ">
+        <div className="w-full h-full relative    pt-20 2xl:pb-20">
+        <div className="w-11/12 ml-3 2xl:ml-5  h-1/2 justify cus-thankyou 2xl:pb-4   rounded-lg ">
+          <h1 className="text-2xl 2xl:text-3xl font-bold text-gray-700 ml-3 2xl:ml-16 pt-1 2xl:pt-3  ">
             Thank You for Reaching Out!
           </h1>
-          <div className="w-11/12 ml-3 h-full  mt-3 ">
-          <p className="text-md text-gray-500 mb-2 pr-2 ">
+          <div className="w-11/12 ml-3 h-full  mt-3 2xl:mt-5 ">
+          <p className="text-md 2xl:text-lg text-gray-500 mb-2 pr-2  2xl:pl-7 ">
              I appreciate you taking the time to
             reach out to me. I'll review your message and get back to you as soon
             as possible!
           </p>
           <Link 
           to="/"
-          className="  text-gray-500 w-fill h-fill p-2 ml-32  text-sm  rounded-md hover:text-gray-700 duration-400 button">
+          className="  text-gray-500 w-fill h-fill p-2 ml-32 2xl:m-52  text-sm 2xl:text-lg   rounded-md hover:text-gray-700 duration-400 button">
            Go Back</Link>                                                                                                                 
           </div>
           
         </div>
       </div>
       ) : (
-        <div className="w-full h-3/4 :h-full relative  justify-center ">
+        <div className="w-full h-3/4  relative  justify-center ">
         <p className="text-gray-700 ml-6 pt-3 2xl:text-lg 2xl:ml-12 2xl:pt-10  text-xl  font-semibold">To Connect with Me! <br /> 
         <span className="text-sm 2xl:text-lg  text-gray-500 font-medium   mt-2  ">Fill this Form</span> 
         </p>
@@ -95,7 +95,7 @@ export default function Contact() {
               <div className="w-1/4 h-8  2xl:h-10 ml-36 2xl:ml-52   items-center relative">
               <p className="text-sm 2xl:text-lg text-gray-500 font-medium ml-10 2xl:ml-16 2xl:mt-4 mt-2 ">OR</p>
               </div>
-              <p className="text-sm text-gray-500   2xl:text-lg 2xl:ml-28 font-medium ml-16">email me at <span className="text-gray-800 text-md"> sabnischinmay31@gmail.com </span></p>
+              <p className="text-sm text-gray-500   2xl:text-lg 2xl:ml-28 2xl:pb-3 font-medium ml-16">email me at <span className="text-gray-800 text-md"> sabnischinmay31@gmail.com </span></p>
             </div> 
       )}
       
