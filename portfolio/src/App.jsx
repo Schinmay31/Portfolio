@@ -5,7 +5,7 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import {motion} from 'framer-motion'
+
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -14,8 +14,6 @@ import Contact from "./components/contact";
 import About from "./components/About";
 import "./App.css"
 
-// Inside your App component
-// Inside your App component
 const App = () => {
 
 

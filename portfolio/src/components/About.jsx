@@ -35,8 +35,8 @@ export default function About() {
             <motion.div
               className="w-4/5 h-1/2   ml-2 2xl:ml-4 "
               initial={{ y: +30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
             >
               <p className="text-md 2xl:text-lg text-gray-600 mt-2 2xl:mt-5 text-justify font-thin">
                 I'm a passionate MERN stack developer with a strong foundation
@@ -55,61 +55,63 @@ export default function About() {
         </div>
       </div>
 
-
-{/*  */}
-      <div className="w-full h-5/6  relative cus-conctact  ">
-        <div className="w-3/4 h-5/6  mt-10 border-l-2 2xl:border-l-4 border-gray-700 ml-24 2xl:ml-32 2xl:pt-5 2xl:pb-5 pt-3 pb-3  ">
+      {/*  */}
+      <div className="w-full h-5/6  relative cus-conctact 2xl:ml-8   ">
+        <div className="w-3/4 h-5/6  mt-10 border-l-2 2xl:border-l-4 border-gray-700 ml-24  2xl:pt-5 2xl:pb-5 pt-3 pb-3  ">
           <div className="w-4/5 h-1/3  ml-2 2xl:ml-4  ">
             {" "}
-            <motion.h1 
-            className="text-3xl 2xl:text-4xl  text-gray-700 font-bold"
-            initial={{ y: -30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
-            >Skills
-            
+            <motion.h1
+              className="text-3xl 2xl:text-4xl  text-gray-700 font-bold"
+              initial={{ y: -30, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
+              Skills
             </motion.h1>
             <motion.div
               initial={{ x: +400, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
             >
-            <p className="text-lg 2xl:text-xl text-gray-500 mt-3 2xl:mt-4 font-thin">
-              Programming Languages :{" "}
-              <span className="text-gray-700">
-                {" "}
-                Javascript, Typescript, Java, C++
-              </span>
-            </p>
-            <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
-              Frontend Technologies :{" "}
-              <span className="text-gray-700">
-                {" "}
-                React, Tailwind CSS, HTML, CSS
-              </span>
-            </p>
-            <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
-              Backend Technologies :{" "}
-              <span className="text-gray-700">
-                {" "}
-                Node.js, Express.js, REST-API
-              </span>
-            </p>
-            <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
-              Database :{" "}
-              <span className="text-gray-700"> MongoDB, PostgreSQL, MySQL</span>
-            </p>
-            <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
-              Deployments and Infrastructure :{" "}
-              <span className="text-gray-700">
-                {" "}
-                Git, GitHub, Vercel, AWS, Docker
-              </span>
-            </p>
-            <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
-              Web Dev Tools :{" "}
-              <span className="text-gray-700"> Postman, Hyperterminal</span>
-            </p>
+              <p className="text-lg 2xl:text-xl text-gray-500 mt-3 2xl:mt-4 font-thin">
+                Programming Languages :{" "}
+                <span className="text-gray-700">
+                  {" "}
+                  Javascript, Typescript, Java, C++
+                </span>
+              </p>
+              <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
+                Frontend Technologies :{" "}
+                <span className="text-gray-700">
+                  {" "}
+                  React, Tailwind CSS, HTML, CSS
+                </span>
+              </p>
+              <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
+                Backend Technologies :{" "}
+                <span className="text-gray-700">
+                  {" "}
+                  Node.js, Express.js, REST-API
+                </span>
+              </p>
+              <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
+                Database :{" "}
+                <span className="text-gray-700">
+                  {" "}
+                  MongoDB, PostgreSQL, MySQL
+                </span>
+              </p>
+              <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
+                Deployments and Infrastructure :{" "}
+                <span className="text-gray-700">
+                  {" "}
+                  Git, GitHub, Vercel, AWS, Docker
+                </span>
+              </p>
+              <p className="text-lg 2xl:text-xl 2xl:mt-3 text-gray-500 mt-2 font-thin">
+                Web Dev Tools :{" "}
+                <span className="text-gray-700"> Postman, Hyperterminal</span>
+              </p>
             </motion.div>
           </div>
         </div>
@@ -120,29 +122,29 @@ export default function About() {
         <div className="w-3/4 h-1/6 mt-14 2xl:mt-20  2xl:ml-32 ml-24  ">
           <div className="w-4/5 h-1/3 border-l-2 border-gray-700 2xl:border-l-4   2xl:pt-5 2xl:pb-5   pt-3 pb-3  ">
             {" "}
-            <motion.h1 
-            className="text-3xl 2xl:text-4xl 2xl:ml-4 ml-2 text-gray-700 font-bold "
-            initial={{ y: -30, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
+            <motion.h1
+              className="text-3xl 2xl:text-4xl 2xl:ml-4 ml-2 text-gray-700 font-bold "
+              initial={{ y: -30, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
             >
-            Education
+              Education
             </motion.h1>
             <motion.p
-             className="text-lg 2xl:text-xl ml-2 2xl:ml-4 text-gray-600 mt-3 2xl:mt-4 font-thin"
-             initial={{ x: +400, opacity: 0 }}
-             animate={{ x: 0, opacity: 1 }}
-             transition={{ duration: 1 }}
-             >
+              className="text-lg 2xl:text-xl ml-2 2xl:ml-4 text-gray-600 mt-3 2xl:mt-4 font-thin"
+              initial={{ x: +400, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
               Bachelor of Engineering (B.E.){" "}
               <span className="text-md ml-16">CGPA : 7.68</span>
             </motion.p>
             <motion.p
-             className="text-lg 2xl:text-xl ml-2 2xl:ml-4  text-gray-500 mt-2 2xl:mt-3 font-thin"
-             initial={{ x: +400, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
-             >
+              className="text-lg 2xl:text-xl ml-2 2xl:ml-4  text-gray-500 mt-2 2xl:mt-3 font-thin"
+              initial={{ x: +400, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
               Dr. D. Y. Patil College of Enginerring, Akurdi, Pune
             </motion.p>
           </div>
@@ -155,45 +157,56 @@ export default function About() {
           <div className="w-4/5 h-1/3  2xl:ml-4 ml-2  ">
             {" "}
             <motion.h1
-             className="text-3xl  text-gray-700 font-bold"
-             initial={{ y: -30, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
-             >
+              className="text-3xl  text-gray-700 font-bold"
+              initial={{ y: -30, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
               My Coding Profiles
-              </motion.h1>
+            </motion.h1>
             <p className="text-lg text-gray-600 mt-3 2xl:mt-4 font-thin">
-            LeetCode :{" "}
+              LeetCode :{" "}
               <span className="text-gray-500">
                 {" "}
-                <a href="https://leetcode.com/u/chinmay31/" target="_blank" className="underline ">chinmay31</a>
+                <a
+                  href="https://leetcode.com/u/chinmay31/"
+                  target="_blank"
+                  className="underline "
+                >
+                  chinmay31
+                </a>
               </span>
             </p>
-
             <p className="text-lg text-gray-600 mt-2 2xl:mt-3 font-thin">
-            GeeksforGeeks :{" "}
+              GeeksforGeeks :{" "}
               <span className="text-gray-500">
                 {" "}
-                <a href="https://www.geeksforgeeks.org/user/chinmaysabnis31/" target="_blank" className="underline ">chinmaysabnis31</a>
+                <a
+                  href="https://www.geeksforgeeks.org/user/chinmaysabnis31/"
+                  target="_blank"
+                  className="underline "
+                >
+                  chinmaysabnis31
+                </a>
               </span>
             </p>
-
             <p className="text-lg text-gray-600 mt-2 2xl:mt-3 font-thin">
-            HackerRank :{" "}
+              HackerRank :{" "}
               <span className="text-gray-500">
                 {" "}
-                <a href="https://www.hackerrank.com/profile/chinmaysabnis31" target="_blank" className="underline ">chinmaysabnis31</a>
+                <a
+                  href="https://www.hackerrank.com/profile/chinmaysabnis31"
+                  target="_blank"
+                  className="underline "
+                >
+                  chinmaysabnis31
+                </a>
               </span>
             </p>
-
-           
-            
-           
           </div>
         </div>
         <div className="h-10 2xl:h-20"></div>
       </div>
-      
     </motion.div>
   );
 }

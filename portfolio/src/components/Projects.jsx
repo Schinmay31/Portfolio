@@ -55,7 +55,7 @@ export default function Projects() {
             </div>
             <div className="w-full h-6  ">
               <motion.h4
-                className="text-sm 2xl:text-lg ml-2 2xl:ml-4 mt-5 2xl:mt-7 2xl:mt-3 text-gray-600"
+                className="text-sm 2xl:text-lg ml-2 2xl:ml-4 mt-5 2xl:mt-7  text-gray-600"
                 initial={{ x: 150, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
@@ -111,7 +111,8 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
-        <motion.div className="w-1/2 h-5/6 ml-1 mt-14"
+        <motion.div
+          className="w-1/2 h-5/6 ml-1 mt-14"
           initial={{ y: -70, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
@@ -123,7 +124,6 @@ export default function Projects() {
                 src={images[currImg]}
                 alt=""
                 className="w-full  2xl:h-fill rounded-md object-cover"
-               
               />
             </AnimatePresence>
           </div>
@@ -143,11 +143,11 @@ export default function Projects() {
           <div className="h-fill w-full ml-16 pb-4 2xl:pb-5 border-l-2 2xl:border-l-4 border-gray-700">
             <div className="w-full h-9 mt-2 flex ">
               <div className="h-8 w-3/5 ">
-                <motion.h2 
-                className=" text-2xl md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  mt-4  text-gray-700 font-semibold"
-                initial={{ y: -40, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
+                <motion.h2
+                  className=" text-2xl md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  mt-4  text-gray-700 font-semibold"
+                  initial={{ y: -40, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 1 }}
                 >
                   SocialBee
                 </motion.h2>
@@ -159,7 +159,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="w-full h-6  ">
-              <h4 className="text-sm ml-2 2xl:ml-4  mt-5  2xl:mt-7 2xl:text-lg 2xl:mt-3 text-gray-600">
+              <h4 className="text-sm ml-2 2xl:ml-4  mt-5  2xl:mt-7 2xl:text-lg  text-gray-600">
                 Backend Developer
               </h4>
             </div>
@@ -222,11 +222,11 @@ export default function Projects() {
           <div className="h-fill w-full ml-16 pb-4 2xl:pb-5 border-l-2 2xl:border-l-4 border-gray-700">
             <div className="w-full h-9 mt-7 flex ">
               <div className="h-8 w-3/5">
-                <motion.h2 
-                className=" text-2xl mt-3 md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  text-gray-700 font-semibold"
-                initial={{ y: -40, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
+                <motion.h2
+                  className=" text-2xl mt-3 md:text-2xl 2xl:text-3xl ml-2 2xl:ml-4  text-gray-700 font-semibold"
+                  initial={{ y: -40, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 1 }}
                 >
                   CodeHub
                 </motion.h2>
@@ -238,7 +238,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="w-full h-6  ">
-              <h4 className="text-sm ml-2 2xl:ml-4 mt-5 2xl:mt-7 2xl:mt-3 2xl:text-lg text-gray-600">
+              <h4 className="text-sm ml-2 2xl:ml-4 mt-5 2xl:mt-7 2xl:text-lg text-gray-600">
                 Fullstack Developer
               </h4>
             </div>
