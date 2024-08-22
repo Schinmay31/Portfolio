@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import bgImg1 from "../assets/Home-bg.jpg";
+import bgImg1 from "../assets/home-bg.jpg";
 import "../css/home.css";
 import githubIcon from "../assets/logo.png";
 import instgramIcon from "../assets/instagram.png";
