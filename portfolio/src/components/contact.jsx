@@ -23,7 +23,7 @@ export default function Contact() {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/contact",
+        "https://portfolio-server-tau-vert.vercel.app//contact",
         formData,
         {
           withCredentials: true,
