@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import bgImg from "../assets/home-bg.jpg";
+import bgImg1 from "../assets/Home-bg.jpg";
 import "../css/home.css";
 import githubIcon from "../assets/logo.png";
 import instgramIcon from "../assets/instagram.png";
@@ -37,7 +37,7 @@ export default function Home() {
         className="absolute  h-screen w-fill"
       >
         <img
-          src={bgImg}
+          src={bgImg1}
           className="h-screen w-full opacity-90"
           alt=""
           onLoad={() => setIsImageLoaded(true)}
