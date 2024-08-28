@@ -39,7 +39,7 @@ export default function Projects() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
                 >
-                  Elika Engginerring
+                  Elika Engineering
                 </motion.h2>
               </div>
               <div className="h-8 w-1/5 2xl:ml-36 ml-20  ">
